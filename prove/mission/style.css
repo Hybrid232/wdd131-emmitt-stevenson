@@ -1,0 +1,50 @@
+
+/* Title Head */
+.title-head {
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.title-head h1 {
+    font-size: 40px;
+}
+
+.title-head p {
+    color: rgb(65, 142, 190);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Body */
+#content {
+    max-width: 30%;
+    border: 1px solid darkgray;
+    margin: 0 auto;
+    padding: 80px;
+    text-align: left;
+}
+
+#content p {
+    line-height: 1.8;
+}
+
+#content > p:nth-of-type(2) {
+    font-style: italic;
+}
+
+#content ul {
+    line-height: 2;
+    padding-bottom: 30px;
+}
+
+#content li {
+    margin-bottom: 15px;
+}
+
+#content img {
+     display: block;
+     margin: 0 auto;
+     width: 20%;
+}
+
