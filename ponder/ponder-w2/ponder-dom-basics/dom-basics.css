@@ -11,3 +11,7 @@ body {
     padding: 50px;
 }
 
+.background {
+    background-color: black;
+    color: white;
+}
